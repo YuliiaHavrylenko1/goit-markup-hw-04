@@ -78,16 +78,6 @@ img {
   align-items: center;
 }
 
-.header-menu-item:active::after {
-  position: relative;
-  content: "";
-  width: 48px;
-  height: 4px;
-  border-radius: 2px;
-  background: #404bbf;
-  display: block;
-}
-
 .header-navigation {
   display: flex;
   align-items: flex-start;
@@ -96,8 +86,16 @@ img {
 
 .header-menu-list {
   display: flex;
-
   gap: 40px;
+}
+
+.item-studio:active::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: #404bbf;
+  display: block;
 }
 
 .item-portfolio:active::after {
