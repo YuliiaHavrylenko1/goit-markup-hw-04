@@ -480,20 +480,3 @@ img {
   letter-spacing: 0.32px;
   margin-bottom: 16px;
 }
-
-.footer-soc-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border: 2px solid #4d5ae5;
-  border-radius: 50%;
-  background-color: #4d5ae5;
-  fill: #f4f4fd;
-}
-
-.footer-soc-links {
-  display: inline-flex;
-  gap: 16px;
-}
