@@ -50,6 +50,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-logo {
@@ -76,6 +78,16 @@ img {
   align-items: center;
 }
 
+.header-menu-item:active::after {
+  position: relative;
+  content: "";
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: #404bbf;
+  display: block;
+}
+
 .header-navigation {
   display: flex;
   align-items: flex-start;
@@ -84,16 +96,8 @@ img {
 
 .header-menu-list {
   display: flex;
-  gap: 40px;
-}
 
-.item-studio:active::after {
-  content: "";
-  width: 48px;
-  height: 4px;
-  border-radius: 2px;
-  background: #404bbf;
-  display: block;
+  gap: 40px;
 }
 
 .item-portfolio:active::after {
