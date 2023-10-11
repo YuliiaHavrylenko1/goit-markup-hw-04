@@ -25,8 +25,10 @@
             >Web<span class="accent">Studio</span></a
           >
           <ul class="header-menu-list">
-            <li class="header-menu-item item-studio">
-              <a class="header-menu-link" href="./index.html">Studio</a>
+            <li class="header-menu-item">
+              <a class="header-menu-link-item-studio" href="./index.html"
+                >Studio</a
+              >
             </li>
             <li class="header-menu-item item-portfolio">
               <a class="header-menu-link" href="">Portfolio</a>
@@ -38,12 +40,12 @@
         </nav>
         <address class="header-address">
           <ul class="header-address-list">
-            <li>
+            <li class="header-address-item">
               <a class="header-address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="header-address-list">
               <a class="header-address-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
@@ -64,45 +66,53 @@
         <!--hero-container-->
       </section>
 
-      <section class="section-feature">
-        <div class="feature-icons">
+      <!--  <section class="section-feature">
+          <div class="container feature-icons">
           <ul class="feature-list-icons">
-            <div class="border">
-              <li class="feature-items-icon">
+            <li class="feature-items-icon">
+              <div class="border">
                 <svg class="icon-feature">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
-              </li>
-            </div>
-            <div class="border">
-              <li class="feature-items-icon">
+              </div>
+            </li>
+
+            <li class="feature-items-icon">
+              <div class="border">
                 <svg class="icon-feature">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
-              </li>
-            </div>
-            <div class="border">
-              <li class="feature-items-icon">
+              </div>
+            </li>
+
+            <li class="feature-items-icon">
+              <div class="border">
                 <svg class="icon-feature">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
-              </li>
-            </div>
-            <div class="border">
-              <li class="feature-items-icon">
+              </div>
+            </li>
+
+            <li class="feature-items-icon">
+              <div class="border">
                 <svg class="icon-feature">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
-              </li>
-            </div>
+              </div>
+            </li>
           </ul>
         </div>
 
         <div class="container feature-container">
-          <!--feature-container-->
+          
           <h2 class="visually-hidden">Features</h2>
           <ul class="subtitle-list">
             <li class="feature-item">
+              <div class="container features-item-icon-container">
+                <svg class="features-item-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="subtitle-list-items">Strategy</h3>
               <p class="paragraph">
                 Our goal is to identify the business problem to walk away with
@@ -110,6 +120,11 @@
               </p>
             </li>
             <li class="feature-item">
+              <div class="container features-item-icon-container">
+                <svg class="features-item-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="subtitle-list-items">Punctuality</h3>
               <p class="paragraph">
                 Bring the key message to the brand's audience for the best price
@@ -117,6 +132,10 @@
               </p>
             </li>
             <li class="feature-item">
+              <div class="container features-item-icon-container">
+                <svg class="features-item-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
               <h3 class="subtitle-list-items">Diligence</h3>
               <p class="paragraph">
                 Research and confirm brands that present the strongest digital
@@ -124,6 +143,11 @@
               </p>
             </li>
             <li class="feature-item">
+              <div class="container features-item-icon-container">
+                <svg class="features-item-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+
               <h3 class="subtitle-list-items">Technologies</h3>
               <p class="paragraph">
                 Design practice focused on digital experiences. We bring forth a
@@ -132,7 +156,62 @@
             </li>
           </ul>
         </div>
-        <!--feature-container-->
+      </section> -->
+
+      <section class="features">
+        <div class="container features-container">
+          <h2 class="visually-hidden">Features</h2>
+          <ul class="features-list">
+            <li class="features-item">
+              <div class="container features-item-icon-container">
+                <svg class="features-item-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="features-item-title">Strategy</h3>
+              <p class="features-item-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="features-item">
+              <div class="container features-item-icon-container">
+                <svg class="features-item-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="features-item-title">Punctuality</h3>
+              <p class="features-item-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="features-item">
+              <div class="container features-item-icon-container">
+                <svg class="features-item-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="features-item-title">Diligence</h3>
+              <p class="features-item-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="features-item">
+              <div class="container features-item-icon-container">
+                <svg class="features-item-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="features-item-title">Technologies</h3>
+              <p class="features-item-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="section-our-team">
